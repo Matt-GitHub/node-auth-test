@@ -1,0 +1,31 @@
+{
+  "name": "auth-test",
+  "version": "1.0.0",
+  "description": "postgress server running on node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt-GitHub/node-auth-test.git"
+  },
+  "author": "Matt-GitHub",
+  "bugs": {
+    "url": "https://github.com/Matt-GitHub/node-auth-test/issues"
+  },
+  "homepage": "https://github.com/Matt-GitHub/node-auth-test#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "gitignore": "^0.6.0",
+    "helmet": "^3.21.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.10",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
