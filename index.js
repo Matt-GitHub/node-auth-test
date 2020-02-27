@@ -1,6 +1,6 @@
 const express = require("express");
 const helmet = require("helmet");
-const port = 6400;
+const port = process.env.PORT || 6400;
 const userRouter = require("./db/api/index");
 const server = express();
 
