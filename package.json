@@ -8,6 +8,9 @@
     "server": "nodemon index.js",
     "start": "node index.js"
   },
+  "keywords": [
+    "heroku"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Matt-GitHub/node-auth-test.git"
